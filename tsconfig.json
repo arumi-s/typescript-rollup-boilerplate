@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"rootDir": "src",
+		"allowSyntheticDefaultImports": true,
+		"allowUnreachableCode": false,
+		"strictBindCallApply": true,
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"declaration": false,
+		"experimentalDecorators": true,
+		"lib": ["dom", "es2017", "dom.iterable"],
+		"moduleResolution": "node",
+		"module": "esnext",
+		"target": "es2017",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "rollup.config.ts"]
+}
